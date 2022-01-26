@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Luckiest+Guy&family=Staatliches&family=Glory:wght@300&family=Cabin:wght@700&family=Josefin+Sans:wght@700&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 5px 90px;
+    background:#FF6363; 
+}
+header.sticky{
+    background: #17EF00;
+}
+header .logo{
+    font-family: 'Luckiest Guy', cursive;
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    transition: 0.6s;
+}
